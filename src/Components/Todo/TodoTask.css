@@ -1,0 +1,49 @@
+.todo_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+.todo_item h3 {
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.644);
+  padding: 20px;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.todo_item .task_btn div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  margin: 5px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.644);
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.todo_item .task_btn div:hover {
+  transform: scale(0.9);
+}
+
+.todo_item .task_btn .done {
+  background-color: rgb(14, 112, 14);
+  height: 100%;
+}
+.todo_item .task_btn .delete {
+  background-color: rgb(190, 82, 19);
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .todo_item .task_btn div {
+    padding: 8px;
+  }
+  .todo_item h3 {
+    padding: 10px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.app {
+  margin: 2%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.app .user__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app .todo_list {
+  margin-top: 10px;
+}
