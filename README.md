@@ -1,4 +1,11 @@
+You can check deployed version here: https://khan-todo.netlify.app/
 # Getting Started with Create React App
+
+You need to install all the node pakaged before run npm start
+to install all the node dependencies run
+
+npm install 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
