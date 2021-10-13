@@ -24,12 +24,19 @@ const App = () => {
   return (
 
     <div className="app">
+      <header>
+        <h1><i className="fas fa-clipboard-check"></i>ToDo</h1>
+      </header>
       <Card className="user_form">
         <UserInput addTask={addTaskHandler} />
       </Card>
       <Card className="todo_list">
         <TodoBox todos={userTask} removeItem={deleteItemHandler} />
       </Card>
+
+      <footer>
+        <p>Powered by <strong> ReactJS</strong>,Created by <strong>Mubsshir Khan</strong></p>
+      </footer>
     </div>
 
   )

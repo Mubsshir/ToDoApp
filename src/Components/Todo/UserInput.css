@@ -11,14 +11,20 @@
   margin: 0 9px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.644);
+  box-shadow: 0 0 1rem 0 rgba(4, 75, 1, 0.644);
 }
 .user__form input[type="text"] {
   outline: 0;
+  box-shadow: 5px 5px 10px 5px rgba(4, 75, 1, 0.644);
+  transition: all 0.5s ease-in-out;
 }
-
+.user__form input.invalid[type="text"] {
+  background-color: rgb(231, 42, 42);
+  color: black;
+  box-shadow: 5px 5px 10px 5px rgba(241, 1, 1, 0.644);
+}
 .user__form input[type="text"]:focus {
-  background-color: rgba(70, 70, 70, 0.692);
+  background-color: rgba(255, 255, 255, 0.692);
   color: rgb(0, 0, 0);
 }
 
